@@ -1,11 +1,9 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import {
     Controller,
     Post,
     Body,
     Get,
-    Param,
-    Patch,
-    Delete,
   } from '@nestjs/common';
 import { ProductsService } from './products.service';
 
